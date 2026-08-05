@@ -145,3 +145,5 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+minoconda.sh
+key.txt
