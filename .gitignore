@@ -147,3 +147,14 @@ random_forest_dir/
 multirun/
 minoconda.sh
 key.txt
+miniconda3/
+miniconda.sh
+miniconda3/
+outputs/
+mlruns/
+images/
+miniconda.sh
+*.conda
+*.tar.gz
+*.zip
+*.csv
