@@ -1,0 +1,44 @@
+{
+  "os": "Linux-6.6.97+-x86_64-with-glibc2.31",
+  "python": "CPython 3.13.0",
+  "startedAt": "2026-08-05T08:04:37.627787Z",
+  "args": [
+    "--trainval_artifact",
+    "trainval_data.csv:latest",
+    "--val_size",
+    "0.2",
+    "--random_seed",
+    "42",
+    "--stratify_by",
+    "neighbourhood_group",
+    "--rf_config",
+    "/workspace/Project-Build-an-ML-Pipeline-Starter/rf_config.json",
+    "--max_tfidf_features",
+    "5",
+    "--output_artifact",
+    "random_forest_model"
+  ],
+  "program": "/workspace/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py",
+  "codePath": "src/train_random_forest/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/niepce-hub/Project-Build-an-ML-Pipeline-Starter",
+    "commit": "4bfb05b6ee52f454021084453e269de66e9fb5fa"
+  },
+  "email": "niepce25@gmail.com",
+  "root": "/workspace/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest",
+  "host": "77dc9dde389e762271efddce939274f8192484d9-f965795d6-z87pg",
+  "executable": "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "2160158191616",
+      "used": "537741934592"
+    }
+  },
+  "memory": {
+    "total": "135077654528"
+  },
+  "writerId": "m66i7nofc9yag75a6xwvz8jeitmirj77"
+}

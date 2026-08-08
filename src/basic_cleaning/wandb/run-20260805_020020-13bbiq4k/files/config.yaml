@@ -1,0 +1,61 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            kf00zoi64hck3383ifzb0gx4zr2egvra:
+                args:
+                    - --input_artifact
+                    - sample.csv:latest
+                    - --output_artifact
+                    - clean_sample.csv
+                    - --output_type
+                    - clean_sample
+                    - --output_description
+                    - Cleaned data sample
+                    - --min_price
+                    - "10"
+                    - --max_price
+                    - "350"
+                codePath: src/basic_cleaning/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "571137867776"
+                email: niepce25@gmail.com
+                executable: /home/student/miniconda3/envs/mlflow-56f8dae1b3efe5eeab5800a53cf12616c2c4b11e/bin/python
+                git:
+                    commit: 4bfb05b6ee52f454021084453e269de66e9fb5fa
+                    remote: https://github.com/niepce-hub/Project-Build-an-ML-Pipeline-Starter
+                host: 77dc9dde389e762271efddce939274f8192484d9-587bdf869d-gp4hp
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.31
+                program: /workspace/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py
+                python: CPython 3.13.0
+                root: /workspace/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning
+                startedAt: "2026-08-05T02:00:20.237848Z"
+                writerId: kf00zoi64hck3383ifzb0gx4zr2egvra
+        m: []
+        python_version: 3.13.0
+        t:
+            "3":
+                - 24
+            "4": 3.13.0
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64
+input_artifact:
+    value: sample.csv:latest
+max_price:
+    value: 350
+min_price:
+    value: 10
+output_artifact:
+    value: clean_sample.csv
+output_description:
+    value: Cleaned data sample
+output_type:
+    value: clean_sample

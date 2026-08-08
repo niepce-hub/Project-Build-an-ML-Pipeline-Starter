@@ -1,0 +1,13 @@
+{"time":"2026-08-05T07:01:33.448870821Z","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-08-05T07:01:33.608033596Z","level":"INFO","msg":"stream: created new stream","id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:33.608099416Z","level":"INFO","msg":"handler: started","stream_id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:33.608240206Z","level":"INFO","msg":"stream: started","id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:33.608276406Z","level":"INFO","msg":"writer: started","stream_id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:33.608298826Z","level":"INFO","msg":"sender: started","stream_id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:34.366126693Z","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2026-08-05T07:01:34.754860405Z","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2026-08-05T07:01:35.22789721Z","level":"INFO","msg":"stream: closing","id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:35.617670602Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-08-05T07:01:35.698653784Z","level":"INFO","msg":"handler: closed","stream_id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:35.698829044Z","level":"INFO","msg":"sender: closed","stream_id":"xtei9rf1"}
+{"time":"2026-08-05T07:01:35.698846574Z","level":"INFO","msg":"stream: closed","id":"xtei9rf1"}

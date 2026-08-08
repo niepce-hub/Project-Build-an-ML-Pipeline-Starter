@@ -1,0 +1,5 @@
+2026-08-05 02:00:20,939 INFO    MainThread:56941 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /workspace/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20260805_020020-8hvyifni/logs/debug.log
+2026-08-05 02:00:20,939 INFO    MainThread:56941 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /workspace/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/wandb/run-20260805_020020-8hvyifni/logs/debug-internal.log
+2026-08-05 02:00:20,939 INFO    MainThread:56941 [wandb_init.py:init():844] calling init triggers
+2026-08-05 02:00:20,939 INFO    MainThread:56941 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'_wandb': {'code_path': 'code/src/basic_cleaning/run.py'}}

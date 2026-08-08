@@ -1,0 +1,42 @@
+2026-08-05 08:08:57,033 Minimum price: 10, Maximum price: 350
+2026-08-05 08:08:57,046 Preparing sklearn pipeline
+2026-08-05 08:08:57,046 Fitting
+2026-08-05 08:08:57,046 Scoring
+Traceback (most recent call last):
+  File "/workspace/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 293, in <module>
+    go(args)
+    ~~^^^^^^
+  File "/workspace/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 81, in go
+    sk_pipe.fit(X_train, y_train)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/pipeline.py", line 655, in fit
+    Xt = self._fit(X, y, routed_params, raw_params=params)
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/pipeline.py", line 589, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~^
+        cloned_transformer,
+        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        params=step_params,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/joblib/memory.py", line 326, in __call__
+    return self.func(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/pipeline.py", line 1540, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **params.get("fit_transform", {}))
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/compose/_column_transformer.py", line 985, in fit_transform
+    self._validate_transformers()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/student/miniconda3/envs/mlflow-0308d6078014cc87535b8e3327c959fc9c2e4a55/lib/python3.13/site-packages/sklearn/compose/_column_transformer.py", line 519, in _validate_transformers
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: All estimators should implement fit and transform, or can be 'drop' or 'passthrough' specifiers. 'Pipeline(steps=[])' (type <class 'sklearn.pipeline.Pipeline'>) doesn't.

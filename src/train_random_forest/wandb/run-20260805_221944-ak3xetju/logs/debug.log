@@ -1,0 +1,23 @@
+2026-08-05 22:19:44,451 INFO    MainThread:26011 [wandb_setup.py:_flush():81] Current SDK version is 0.24.0
+2026-08-05 22:19:44,451 INFO    MainThread:26011 [wandb_setup.py:_flush():81] Configure stats pid to 26011
+2026-08-05 22:19:44,451 INFO    MainThread:26011 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-08-05 22:19:44,452 INFO    MainThread:26011 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /workspace/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20260805_221944-ak3xetju/logs/debug.log
+2026-08-05 22:19:44,452 INFO    MainThread:26011 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /workspace/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20260805_221944-ak3xetju/logs/debug-internal.log
+2026-08-05 22:19:44,452 INFO    MainThread:26011 [wandb_init.py:init():844] calling init triggers
+2026-08-05 22:19:44,452 INFO    MainThread:26011 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-08-05 22:19:44,452 INFO    MainThread:26011 [wandb_init.py:init():892] starting backend
+2026-08-05 22:19:44,705 INFO    MainThread:26011 [wandb_init.py:init():895] sending inform_init request
+2026-08-05 22:19:44,708 INFO    MainThread:26011 [wandb_init.py:init():903] backend started and connected
+2026-08-05 22:19:44,709 INFO    MainThread:26011 [wandb_init.py:init():973] updated telemetry
+2026-08-05 22:19:44,723 INFO    MainThread:26011 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-08-05 22:19:45,073 INFO    MainThread:26011 [wandb_init.py:init():1044] starting run threads in backend
+2026-08-05 22:19:45,133 INFO    MainThread:26011 [wandb_run.py:_console_start():2529] atexit reg
+2026-08-05 22:19:45,134 INFO    MainThread:26011 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-08-05 22:19:45,134 INFO    MainThread:26011 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-08-05 22:19:45,134 INFO    MainThread:26011 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-08-05 22:19:45,137 INFO    MainThread:26011 [wandb_init.py:init():1084] run started, returning control to user process
+2026-08-05 22:19:45,138 INFO    MainThread:26011 [wandb_run.py:_config_callback():1404] config_cb None None {'trainval_artifact': 'trainval_data.csv:latest', 'val_size': 0.2, 'random_seed': 42, 'stratify_by': 'neighbourhood_group', 'rf_config': '/workspace/Project-Build-an-ML-Pipeline-Starter/rf_config.json', 'max_tfidf_features': 5, 'output_artifact': 'random_forest_model'}
+2026-08-05 22:19:45,138 INFO    MainThread:26011 [wandb_run.py:_config_callback():1404] config_cb None None {'n_estimators': 100, 'max_depth': 15, 'min_samples_split': 4, 'min_samples_leaf': 3, 'n_jobs': -1, 'criterion': 'squared_error', 'max_features': 0.5, 'oob_score': True}
+2026-08-05 22:19:54,953 INFO    wandb-AsyncioManager-main:26011 [service_client.py:_forward_responses():80] Reached EOF.
+2026-08-05 22:19:54,953 INFO    wandb-AsyncioManager-main:26011 [mailbox.py:close():137] Closing mailbox, abandoning 2 handles.

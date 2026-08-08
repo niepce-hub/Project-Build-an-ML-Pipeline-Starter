@@ -1,0 +1,49 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            i98dvmqjvpujykqb9kdybi9o59p52n7j:
+                args:
+                    - .
+                    - -vv
+                    - --csv
+                    - clean_sample.csv:latest
+                    - --ref
+                    - clean_sample.csv:reference
+                    - --kl_threshold
+                    - "0.2"
+                    - --min_price
+                    - "10"
+                    - --max_price
+                    - "350"
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "478962372608"
+                email: niepce25@gmail.com
+                executable: /home/student/miniconda3/envs/mlflow-0d015cc79fe48b2162e3fd203cfbc1f9b358703a/bin/python3.13
+                git:
+                    commit: 4bfb05b6ee52f454021084453e269de66e9fb5fa
+                    remote: https://github.com/niepce-hub/Project-Build-an-ML-Pipeline-Starter
+                host: 77dc9dde389e762271efddce939274f8192484d9-76cdbd788-9m9z8
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.31
+                program: /home/student/miniconda3/envs/mlflow-0d015cc79fe48b2162e3fd203cfbc1f9b358703a/bin/pytest
+                python: CPython 3.13.0
+                root: /workspace/Project-Build-an-ML-Pipeline-Starter/src/data_check
+                startedAt: "2026-08-05T22:25:22.565956Z"
+                writerId: i98dvmqjvpujykqb9kdybi9o59p52n7j
+        m: []
+        python_version: 3.13.0
+        t:
+            "3":
+                - 5
+                - 24
+                - 62
+            "4": 3.13.0
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64

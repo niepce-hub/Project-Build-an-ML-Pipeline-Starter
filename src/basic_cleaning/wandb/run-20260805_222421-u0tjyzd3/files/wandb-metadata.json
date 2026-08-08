@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.6.97+-x86_64-with-glibc2.31",
+  "python": "CPython 3.13.0",
+  "startedAt": "2026-08-05T22:24:21.543450Z",
+  "args": [
+    "--input_artifact",
+    "sample.csv:latest",
+    "--output_artifact",
+    "clean_sample.csv",
+    "--output_type",
+    "clean_sample",
+    "--output_description",
+    "Cleaned data sample",
+    "--min_price",
+    "10",
+    "--max_price",
+    "350"
+  ],
+  "program": "/workspace/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py",
+  "codePath": "src/basic_cleaning/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/niepce-hub/Project-Build-an-ML-Pipeline-Starter",
+    "commit": "4bfb05b6ee52f454021084453e269de66e9fb5fa"
+  },
+  "email": "niepce25@gmail.com",
+  "root": "/workspace/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning",
+  "host": "77dc9dde389e762271efddce939274f8192484d9-76cdbd788-9m9z8",
+  "executable": "/home/student/miniconda3/envs/mlflow-56f8dae1b3efe5eeab5800a53cf12616c2c4b11e/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "2160158191616",
+      "used": "478136418304"
+    }
+  },
+  "memory": {
+    "total": "135077654528"
+  },
+  "writerId": "o6unhqekugtx4k5jea5sriquglscw3s2"
+}
