@@ -1,5 +1,9 @@
 # NYC Short-Term Rental Price Prediction ML Pipeline
 
+## Release v1.0.1
+# This release adds a new cleaning step to remove data point soutside NYC boundaries and ensures all unit tests pass. 
+# The pipiline was re-run successfully with sample2.csv.
+
 ## Project Links
 * **GitHub Repository:** https://github.com/niepce-hub/Project-Build-an-ML-Pipeline-Starter
 * **Weights & Biases (W&B) Public Report:** https://wandb.ai/niepce25-western-governors-university/nyc_airbnb/reports/NYC-Short-Term-Rental-Price-Prediction-ML-Pipeline---VmlldzoxNzY3ODYzNA?accessToken=jbq6j5wo3r4deqztd8r1eaayo7qei1v68odrh8uef0f5p7kgpsb88eu31gc4ywiw
